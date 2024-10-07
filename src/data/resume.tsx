@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/bandung",
   description: "I enjoy creating solutions that make a difference.",
   summary:
-    "I am an undergraduate student [currently pursuing a degree in computer science](/#education) with a strong passion for Software Engineering. I’ve been hands-on with [various projects](/#projects), utilizing technologies like JavaScript, [React](https://react.dev/), [Next.js](https://nextjs.org/) to building dynamic web applications. Additionally I employ [TypeScript](https://www.typescriptlang.org/) tp ensure robust, type-safe code, and I work with [Postgres](https://www.postgresql.org/) for database management.",
+    "I am an undergraduate student [currently pursuing a degree in computer science](/#education) with a strong passion for Software Engineering. I’ve been hands-on with [various projects](/#projects), utilizing technologies like JavaScript, [React](https://react.dev/), [Next.js](https://nextjs.org/) to building dynamic web applications. Additionally I employ [TypeScript](https://www.typescriptlang.org/) to ensure robust, type-safe code, and I work with [Postgres](https://www.postgresql.org/) for database management. I also use [Prisma](https://www.prisma.io/) as an ORM to simplify and streamline database interactions.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -113,6 +113,78 @@ export const DATA = {
       ],
       image: "",
       video: "/intro.mp4",
+    },
+    {
+      title: "BIMSQ Sorting Visualizer",
+      href: "https://technoscape.id/",
+      dates: "December 2023 - June 2024",
+      active: true,
+      description:
+        "Creating a dashboard and user interface for a sorting visualizer to compare the effectiveness of different sorting algorithms.",
+      technologies: ["Vite", "ReactJS", "ShadcnUI", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://bimsq-sort.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ihsaanhardyanto/bimsq-sort",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/bimsq.png",
+    },
+    {
+      title: "Shyuppi",
+      href: "",
+      dates: "September 2024",
+      active: true,
+      description: "",
+      technologies: [
+        "Postgres",
+        "Zod",
+        "TypeScript",
+        "Neon",
+        "NextJS",
+        "ReactJS",
+        "Prisma",
+        "TailwindCSS",
+        "Clerk",
+        "ShadcnUI",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/ihsaanhardyanto/shyuppi-admin",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "POG Restaurant",
+      href: "",
+      dates: "September 2024",
+      active: true,
+      description: "",
+      technologies: ["C"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ihsaanhardyanto/POG-Restaurant",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/una.png",
+      video: "",
     },
   ],
   // hackathons: [
