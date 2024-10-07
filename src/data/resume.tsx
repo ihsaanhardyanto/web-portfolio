@@ -135,6 +135,7 @@ export const DATA = {
         },
       ],
       image: "/bimsq.png",
+      video: "",
     },
     {
       title: "Shyuppi",
@@ -155,19 +156,14 @@ export const DATA = {
         "ShadcnUI",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
         {
           type: "Source",
           href: "https://github.com/ihsaanhardyanto/shyuppi-admin",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      // image: "",
-      // video: "",
+      image: "",
+      video: "",
     },
     {
       title: "POG Restaurant",
@@ -187,17 +183,4 @@ export const DATA = {
       video: "",
     },
   ],
-  // hackathons: [
-  //   {
-  //     title: "Hack Western 5",
-  //     dates: "November 23rd - 25th, 2018",
-  //     location: "London, Ontario",
-  //     description:
-  //       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-  //     image:
-  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-  //     links: [],
-  //   },
-  // ],
 } as const;
