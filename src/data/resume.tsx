@@ -97,6 +97,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Shyuppi",
+      href: "",
+      dates: "September 2024 - October 2024",
+      active: true,
+      description: "",
+      technologies: [
+        "Postgres",
+        "Zod",
+        "TypeScript",
+        "Neon",
+        "NextJS",
+        "ReactJS",
+        "Prisma",
+        "TailwindCSS",
+        "Clerk",
+        "ShadcnUI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ihsaanhardyanto/shyuppi-admin",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "Technoscape",
       href: "https://technoscape.id/",
       dates: "March 2023 - May 2023",
@@ -138,39 +166,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Shyuppi",
-      href: "",
-      dates: "September 2024",
-      active: true,
-      description: "",
-      technologies: [
-        "Postgres",
-        "Zod",
-        "TypeScript",
-        "Neon",
-        "NextJS",
-        "ReactJS",
-        "Prisma",
-        "TailwindCSS",
-        "Clerk",
-        "ShadcnUI",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/ihsaanhardyanto/shyuppi-admin",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
       title: "POG Restaurant",
       href: "",
       dates: "September 2024",
       active: true,
-      description: "",
+      description:
+        "Built a C-based restaurant system with features to browse the menu, place orders, and process payments, including automated change calculation.",
       technologies: ["C"],
       links: [
         {
