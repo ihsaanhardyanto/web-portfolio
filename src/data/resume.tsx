@@ -7,7 +7,8 @@ export const DATA = {
   url: "https://ihsaan-hardyanto.vercel.app/",
   location: "Bandung, ID",
   locationLink: "https://www.google.com/maps/place/bandung",
-  description: "I enjoy creating solutions that make a difference.",
+  description:
+    "I love making solutions that make a difference. I regularly work out to keep my energy levels high.",
   summary:
     "I am an undergraduate student [currently pursuing a degree in computer science](/#education) with a strong passion for Software Engineering. I’ve been hands-on with [various projects](/#projects), utilizing technologies like JavaScript, [React](https://react.dev/), [Next.js](https://nextjs.org/) to building dynamic web applications. Additionally I employ [TypeScript](https://www.typescriptlang.org/) to ensure robust, type-safe code, and I work with [Postgres](https://www.postgresql.org/) for database management. I also use [Prisma](https://www.prisma.io/) as an ORM to simplify and streamline database interactions.",
   avatarUrl: "/me.jpg",
