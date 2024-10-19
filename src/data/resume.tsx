@@ -24,6 +24,13 @@ export const DATA = {
     "HTML",
     "CSS",
   ],
+  frameworks: [
+    "Next .js",
+    "Node .js",
+    "Express.js",
+    "React",
+    
+  ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/notes", icon: NotebookPenIcon, label: "Notes" },

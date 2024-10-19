@@ -1,9 +1,10 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
+import { PhotoCollage } from "@/components/photo-collage";
+
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-import Typewriter from "@/components/typewriter";
+// import Typewriter from "@/components/typewriter";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -83,6 +84,13 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
+      <section id="photo">
+        <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <PhotoCollage />
+        </BlurFade>
+      </section>
+
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -150,6 +158,25 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <section id="frameworks">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 10}>
+            <h2 className="text-xl font-bold">Frameworks</h2>
+          </BlurFade>
+          <div className="flex flex-wrap gap-1">
+            {DATA.frameworks.map((framework, id) => (
+              <BlurFade
+                key={framework}
+                delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+              >
+                <Badge key={framework}>{framework}</Badge>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section id="projects">
         <div className="w-full space-y-12 py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
