@@ -144,15 +144,15 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
+      <section id="techs">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Tech Languages</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+            {DATA.techs.map((tech, id) => (
+              <BlurFade key={tech} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge key={tech}>{tech}</Badge>
               </BlurFade>
             ))}
           </div>
