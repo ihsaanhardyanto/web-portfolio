@@ -142,7 +142,7 @@ export const DATA = {
     {
       title: "Technoscape",
       href: "https://technoscape.id/",
-      dates: "March 2023 - May 2023",
+      dates: "April 2024 - June 2024",
       active: true,
       description:
         "Developed code for the admin dashboard, focusing on building efficient and scalable components for backend management.",
