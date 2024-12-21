@@ -112,11 +112,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "CaLouselF",
+      href: "",
+      dates: "December 2024",
+      active: true,
+      description:
+        "Built comprehensive frontend system for CaLouselF marketplace, featuring admin dashboard for item approval management, seller interface for inventory and offer handling, and integrated user authentication with backend services.",
+      technologies: ["Java", "MySQL"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ihsaanhardyanto/CaLouselF/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://utfs.io/f/qggsNLzkMu05aHSdh21BAOSfuEv3XZdxUb25DVYGT6i7yhCI",
+      video: "",
+    },
+    {
       title: "Shyuppi",
       href: "",
       dates: "September 2024 - October 2024",
       active: true,
-      description: "",
+      description:
+        "Admin dashboard designed specifically for marketplace management.",
       technologies: [
         "Postgres",
         "Zod",
