@@ -91,29 +91,26 @@ export default function Page() {
         </BlurFade>
       </section>
 
-      <section id="work">
+      <section id="org">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">Organizational Experience</h2>
           </BlurFade>
-          {DATA.work.map((work, id) => (
-            <BlurFade
-              key={work.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-            >
+          {DATA.org.map((org, id) => (
+            <BlurFade key={org.company} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
               <ResumeCard
-                key={work.company}
-                logoUrl={work.logoUrl}
-                altText={work.company}
-                title={work.company}
-                subtitle={work.title}
-                href={work.href}
-                badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description}
+                key={org.company}
+                logoUrl={org.logoUrl}
+                altText={org.company}
+                title={org.company}
+                subtitle={org.title}
+                href={org.href}
+                badges={org.badges}
+                period={`${org.start} - ${org.end ?? "Present"}`}
+                description={org.description}
                 // description={
                 //   <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-                //     {work.description}
+                //     {org.description}
                 //   </Markdown>
                 // }
               />

@@ -16,27 +16,27 @@ export const DATA = {
   techs: [
     "Typescript",
     "Javascript",
+    "HTML5",
+    "CSS3",
     "Php",
     "C",
     "C++",
     "C#",
     "Python",
     "Java",
-    "HTML5",
-    "CSS3",
     "MDX",
   ],
   frameworks: [
     "Next",
-    "Node.js",
-    "Vite",
     "React",
-    "Express.js",
     "Laravel",
-    ".NET",
     "TailwindCSS",
     "Bootstrap",
     "Shadcn/UI",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    ".NET",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -86,7 +86,18 @@ export const DATA = {
     },
   },
 
-  work: [
+  org: [
+    {
+      company: "GDGoC Binus Bandung",
+      href: "https://bnccbandung.vercel.app/",
+      badges: [],
+      location: "Bandung, Indonesia",
+      title: "Core team - Frontend Division",
+      logoUrl: "/gdg.jpeg",
+      start: "Oct 2024",
+      end: "Present",
+      description: "Explore and teach Frontend using Google technologies.",
+    },
     {
       company: "Bina Nusantara Computer Club",
       href: "https://bnccbandung.vercel.app/",
@@ -112,12 +123,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Sangfor",
+      href: "",
+      dates: "January 2025",
+      active: true,
+      description:
+        "Developed responsive landing page with integrated form validation system connected to cloud database infrastructure and deployed on DigitalOcean VPS.",
+      technologies: ["TypeScript", "MySQL", "Laravel", "PHP"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ihsaanhardyanto/sangfor",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "http://noww80gwg0sw0sksoc8wg4ko.159.223.55.144.sslip.io/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://6wopiao8ao.ufs.sh/f/qggsNLzkMu059JkXTxMZD9Vqbgctlsu8iIZOPEXkfnMTrd5N",
+      video: "",
+    },
+    {
       title: "CaLouselF",
       href: "",
       dates: "December 2024",
       active: true,
       description:
-        "Built comprehensive frontend system for CaLouselF marketplace, featuring admin dashboard for item approval management, seller interface for inventory and offer handling, and integrated user authentication with backend services.",
+        "Built comprehensive frontend system for CaLouselF marketplace, featuring admin dashboard for item approval management, chseller interface for inventory and offer handling, and integrated user authentication with backend services.",
       technologies: ["Java", "MySQL"],
       links: [
         {
