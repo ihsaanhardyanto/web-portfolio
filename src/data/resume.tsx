@@ -128,7 +128,7 @@ export const DATA = {
       dates: "January 2025",
       active: true,
       description:
-        "Developed responsive landing page with integrated form validation system connected to cloud database infrastructure and deployed on DigitalOcean VPS.",
+        "Developed responsive landing page with integrated form validation system connected to Aiven cloud database infrastructure and deployed on DigitalOcean VPS.",
       technologies: ["TypeScript", "MySQL", "Laravel", "PHP"],
       links: [
         {
