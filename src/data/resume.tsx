@@ -117,8 +117,8 @@ export const DATA = {
       location: "Bandung, Indonesia",
       title: "R&D Activist",
       logoUrl: "/bncc.png",
-      start: "Dec 2023",
-      end: "Dec 2024",
+      start: "Jan 2023",
+      end: "Dec 2023",
       description:
         "During my regeneration period at RnD BNCC Bandung, I immersed myself in learning various tech stacks and workflows implemented within the RnD division. Through collaborative teamwork, I contributed to completing assigned projects, which enabled me to develop both technical expertise and essential team collaboration skills.",
     },
