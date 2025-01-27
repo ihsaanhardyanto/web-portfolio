@@ -110,6 +110,18 @@ export const DATA = {
       description:
         "Implemented Agile Scrum as the primary framework for managing BNCC's largest project, Technoscape, a web-based platform. Served as Scrum Master on multiple occasions, guiding cross-functional teams in developing projects using Next.js and TypeScript. Collaborated closely with the Public Relations team to ensure seamless UI/UX integration. Led the team in leveraging various open-source libraries, fostering efficient development practices and smooth project delivery.",
     },
+    {
+      company: "Bina Nusantara Computer Club",
+      href: "https://bnccbandung.vercel.app/",
+      badges: [],
+      location: "Bandung, Indonesia",
+      title: "R&D Activist",
+      logoUrl: "/bncc.png",
+      start: "Dec 2023",
+      end: "Dec 2024",
+      description:
+        "During my regeneration period at RnD BNCC Bandung, I immersed myself in learning various tech stacks and workflows implemented within the RnD division. Through collaborative teamwork, I contributed to completing assigned projects, which enabled me to develop both technical expertise and essential team collaboration skills.",
+    },
   ],
   education: [
     {
