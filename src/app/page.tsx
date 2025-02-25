@@ -216,6 +216,17 @@ export default function Page() {
         </div>
       </section>
 
+      <section id="spotify">
+        <div className="flex justify-center items-center">
+          <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=fpbxg8w963dvuwaj8icyfr2cl&redirect=true">
+            <img
+              src="https://spotify-github-profile.kittinanx.com/api/view?uid=fpbxg8w963dvuwaj8icyfr2cl&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false"
+              alt="Spotify Profile"
+            />
+          </a>
+        </div>
+      </section>
+
       <section id="contact">
         <div className="grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
