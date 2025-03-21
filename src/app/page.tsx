@@ -91,6 +91,48 @@ export default function Page() {
         </BlurFade>
       </section>
 
+      <section id="work">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Work Experience</h2>
+          </BlurFade>
+          {DATA.work.map(
+            (
+              {
+                company,
+                logoUrl,
+                title,
+                href,
+                badges,
+                start,
+                end,
+                description,
+              },
+              id,
+            ) => (
+              <BlurFade key={company} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
+                <ResumeCard
+                  key={company}
+                  logoUrl={logoUrl}
+                  altText={company}
+                  title={company}
+                  subtitle={title}
+                  href={href}
+                  badges={badges}
+                  period={`${start} - ${end ?? "Present"}`}
+                  description={description}
+                  // description={
+                  //   <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+                  //     {description}
+                  //   </Markdown>
+                  // }
+                />
+              </BlurFade>
+            ),
+          )}
+        </div>
+      </section>
+
       <section id="org">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -217,7 +259,7 @@ export default function Page() {
       </section>
 
       <section id="spotify">
-        <div className="flex justify-center items-center">
+        <div className="flex items-center justify-center">
           <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=fpbxg8w963dvuwaj8icyfr2cl&redirect=true">
             <img
               src="https://spotify-github-profile.kittinanx.com/api/view?uid=fpbxg8w963dvuwaj8icyfr2cl&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false"

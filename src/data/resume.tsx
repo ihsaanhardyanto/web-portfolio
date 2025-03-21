@@ -86,6 +86,21 @@ export const DATA = {
     },
   },
 
+  work: [
+    {
+      company: "Olx Indonesia",
+      href: "https://www.olx.co.id/,",
+      badges: [],
+      location: "Jakarta, Indonesia",
+      title: "Frontend Developer Intern",
+      logoUrl: "/admo.png",
+      start: "Feb 2025",
+      end: "Aug 2025",
+      description:
+        "Explore and learn to integrate dealer and olx web api on frontend using react",
+    },
+  ],
+
   org: [
     {
       company: "GDGoC Binus Bandung",
