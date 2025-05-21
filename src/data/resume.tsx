@@ -95,9 +95,9 @@ export const DATA = {
       title: "Frontend Developer Intern",
       logoUrl: "/admo.png",
       start: "Feb 2025",
-      end: "Aug 2025",
+      end: "Present",
       description:
-        "Explore and learn to integrate dealer and olx web api on frontend using react",
+        "Contributed as a Frontend Developer Intern in the OLX Indonesia dealer-web project, focusing on revamping legacy UI components to align with modern design standards using React and Tailwind CSS. Collaborated closely with fellow frontend developers and cross-functional teams, including UI/UX designers and backend engineers, to implement new features and update existing ones. Gained hands-on experience in slicing designs from Figma, integrating with backend APIs, and utilizing tools such as Jira and Confluence for task management and documentation. Enhanced problem-solving skills and adapted to Agile workflows, actively participating in sprints and team discussions to deliver efficient solutions.",
     },
   ],
 
