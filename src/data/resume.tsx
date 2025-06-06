@@ -89,7 +89,7 @@ export const DATA = {
   work: [
     {
       company: "Olx Indonesia",
-      href: "https://www.olx.co.id/,",
+      href: "https://dealer.olx.co.id/",
       badges: [],
       location: "Jakarta, Indonesia",
       title: "Frontend Developer Intern",
@@ -97,7 +97,7 @@ export const DATA = {
       start: "Feb 2025",
       end: "Present",
       description:
-        "Contributed as a Frontend Developer Intern in the OLX Indonesia dealer-web project, focusing on revamping legacy UI components to align with modern design standards using React and Tailwind CSS. Collaborated closely with fellow frontend developers and cross-functional teams, including UI/UX designers and backend engineers, to implement new features and update existing ones. Gained hands-on experience in slicing designs from Figma, integrating with backend APIs, and utilizing tools such as Jira and Confluence for task management and documentation. Enhanced problem-solving skills and adapted to Agile workflows, actively participating in sprints and team discussions to deliver efficient solutions.",
+        "Contributed to revamping the dealer-web legacy UI with React and Tailwind CSS. Collaborated with project teams to implement and update features, sliced designs from Figma, integrated backend APIs. Gained experience in Agile workflows and problem-solving through active sprint participation.",
     },
   ],
 
