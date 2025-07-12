@@ -4,7 +4,6 @@ import { PhotoCollage } from "@/components/photo-collage";
 
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-// import Typewriter from "@/components/typewriter";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -20,44 +19,11 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="flex justify-between gap-2">
             <div className="flex flex-1 flex-col space-y-1.5">
-              {/* <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={
-                  <Typewriter
-                    options={{
-                      strings: [
-                        "Hello,",
-                        "Hola,",
-                        "Bonjour,",
-                        "Ciao,",
-                        "Hallo,",
-                        "你好,",
-                        "こんにちは,",
-                        "안녕하세요,",
-                        "สวัสดี,",
-                        "Привет,",
-                        "Merhaba,",
-                        "مرحبا,",
-                        "Hej,",
-                        "Selam,",
-                        "Xin chào,",
-                        "Olá,",
-                        "Salam,",
-                        "Namaste,",
-                      ],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />
-                }
-              /> */}
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
