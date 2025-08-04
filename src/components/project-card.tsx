@@ -1,3 +1,5 @@
+"use client";
+
 import { Badge } from "@/components/ui/badge";
 import {
   Card,
@@ -10,6 +12,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { useEffect, useState } from "react";
 
 interface Props {
   title: string;
@@ -40,17 +43,23 @@ export function ProjectCard({
   links,
   className,
 }: Props) {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex h-full flex-col overflow-hidden border transition-all duration-300 ease-out hover:shadow-lg"
       }
     >
       <Link
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
+        {video && mounted && (
           <video
             src={video}
             autoPlay

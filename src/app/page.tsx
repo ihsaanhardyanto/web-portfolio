@@ -4,9 +4,9 @@ import { PhotoCollage } from "@/components/photo-collage";
 
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-// import Typewriter from "@/components/typewriter";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -17,47 +17,14 @@ export default function Page() {
   return (
     <main className="flex min-h-[100dvh] flex-col space-y-10">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
+        <div className="mx-auto w-full max-w-2xl space-y-4">
           <div className="flex justify-between gap-2">
             <div className="flex flex-1 flex-col space-y-1.5">
-              {/* <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={
-                  <Typewriter
-                    options={{
-                      strings: [
-                        "Hello,",
-                        "Hola,",
-                        "Bonjour,",
-                        "Ciao,",
-                        "Hallo,",
-                        "你好,",
-                        "こんにちは,",
-                        "안녕하세요,",
-                        "สวัสดี,",
-                        "Привет,",
-                        "Merhaba,",
-                        "مرحبا,",
-                        "Hej,",
-                        "Selam,",
-                        "Xin chào,",
-                        "Olá,",
-                        "Salam,",
-                        "Namaste,",
-                      ],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />
-                }
-              /> */}
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -70,6 +37,18 @@ export default function Page() {
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
+            </BlurFade>
+          </div>
+          <div>
+            <BlurFade delay={BLUR_FADE_DELAY * 2}>
+              <Button className="w-full" variant="outline" asChild>
+                <Link
+                  href="/ihsaan_resume.pdf"
+                  target="_blank"
+                >
+                  My Resume
+                </Link>
+              </Button>
             </BlurFade>
           </div>
         </div>
@@ -139,7 +118,10 @@ export default function Page() {
             <h2 className="text-xl font-bold">Organizational Experience</h2>
           </BlurFade>
           {DATA.org.map((org, id) => (
-            <BlurFade key={org.company} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
+            <BlurFade
+              key={`${org.company}-${id}`}
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+            >
               <ResumeCard
                 key={org.company}
                 logoUrl={org.logoUrl}
