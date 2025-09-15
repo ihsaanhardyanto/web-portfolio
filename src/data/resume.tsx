@@ -95,9 +95,21 @@ export const DATA = {
       title: "Frontend Developer Intern",
       logoUrl: "/admo.png",
       start: "Feb 2025",
+      end: "Aug 2025",
+      description:
+        "Collaborated with cross-functional teams to enhance the dealer purchase flow, improve user experience, and boost operational efficiency. Simplified payment processes with user-friendly options and ensured seamless integration with backend systems. Contributed to the usability and visual appeal of the platform, resulting in increased user engagement.",
+    },
+    {
+      company: "Hyundai Autoever Indonesia",
+      href: "https://www.hyundai-autoever.com/",
+      badges: [],
+      location: "Jakarta, Indonesia",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/haeid.png",
+      start: "Sep 2025",
       end: "Present",
       description:
-        "Contributed to revamping the dealer-web legacy UI with React and Tailwind CSS. Collaborated with project teams to implement and update features, sliced designs from Figma, integrated backend APIs. Gained experience in Agile workflows and problem-solving through active sprint participation.",
+        "Worked on developing and maintaining internal web applications using React for frontend and Java Spring Boot for backend.",
     },
   ],
 
