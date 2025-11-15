@@ -54,11 +54,9 @@ export default async function BlogPage() {
                 </p>
               </div>
             </Link>
-             {id < posts.length - 1 && <Separator className="my-4"/>} 
+            {id < posts.length - 1 && <Separator className="my-4" />}
           </BlurFade>
         ))}
-
-      
     </section>
   );
 }
