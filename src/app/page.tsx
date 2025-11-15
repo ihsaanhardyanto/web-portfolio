@@ -8,6 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
+import { FileText } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -42,10 +43,8 @@ export default function Page() {
           <div>
             <BlurFade delay={BLUR_FADE_DELAY * 2}>
               <Button className="w-full" variant="outline" asChild>
-                <Link
-                  href="/ihsaan_resume.pdf"
-                  target="_blank"
-                >
+                <Link href="/ihsaan_resume.pdf" target="_blank" className="gap-2 flex">
+                  <FileText size={18}/>
                   My Resume
                 </Link>
               </Button>
