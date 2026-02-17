@@ -86,18 +86,6 @@ export const DATA = {
 
   work: [
     {
-      company: "Olx Indonesia",
-      href: "https://dealer.olx.co.id/",
-      badges: [],
-      location: "Jakarta, Indonesia",
-      title: "Frontend Developer",
-      logoUrl: "/admo.png",
-      start: "Feb 2025",
-      end: "Aug 2025",
-      description:
-        "Collaborated with cross-functional teams to enhance the dealer purchase flow, improve user experience, and boost operational efficiency. Simplified payment processes with user-friendly options and ensured seamless integration with backend systems. Contributed to the usability and visual appeal of the platform, resulting in increased user engagement.",
-    },
-    {
       company: "Hyundai Autoever Indonesia",
       href: "https://www.hyundai-autoever.com/",
       badges: [],
@@ -109,6 +97,18 @@ export const DATA = {
       description:
         "Developing end-to-end enterprise web applications using Java Spring Boot for robust backend services and React for dynamic frontends. Responsible for designing RESTful APIs, managing database integrations, and ensuring seamless data flow between server and client-side architectures.",
     },
+    { 
+      company: "Olx Indonesia",
+      href: "https://dealer.olx.co.id/",
+      badges: [],
+      location: "Jakarta, Indonesia",
+      title: "Frontend Developer",
+      logoUrl: "/admo.png",
+      start: "Feb 2025",
+      end: "Aug 2025",
+      description:
+        "Collaborated with cross-functional teams to enhance the dealer purchase flow, improve user experience, and boost operational efficiency. Simplified payment processes with user-friendly options and ensured seamless integration with backend systems. Contributed to the usability and visual appeal of the platform, resulting in increased user engagement.",
+    }
   ],
 
   org: [
