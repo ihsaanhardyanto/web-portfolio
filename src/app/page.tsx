@@ -7,7 +7,9 @@ import { ResumeCard } from "@/components/resume-card";
 // import Typewriter from "@/components/typewriter";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
+import { FileText } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -72,6 +74,20 @@ export default function Page() {
               </Avatar>
             </BlurFade>
           </div>
+          <div>
+            <BlurFade delay={BLUR_FADE_DELAY * 2}>
+              <Button className="w-full" variant="outline" asChild>
+                <Link
+                  href="/ihsaan_resume.pdf"
+                  target="_blank"
+                  className="flex gap-2"
+                >
+                  <FileText  size={18} />
+                  My Resume
+                </Link>
+              </Button>
+            </BlurFade>
+          </div>
         </div>
       </section>
       <section id="about">
@@ -82,6 +98,8 @@ export default function Page() {
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
             {DATA.summary}
           </Markdown>
+
+          
         </BlurFade>
       </section>
 
