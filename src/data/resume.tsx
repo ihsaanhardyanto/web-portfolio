@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "I love making solutions that make a difference. I regularly work out to keep my energy levels high.",
   summary:
-    "Full Stack Developer with hands-on experience building scalable web applications using [Next.js](https://nextjs.org/), [React](https://react.dev/), and [Java Spring Boot](https://spring.io/projects/spring-boot). Experienced in end-to-end development, from designing responsive user interfaces to architecting secure RESTful APIs. A collaborative team player accustomed to Agile environments, eager to contribute to meaningful projects while continuously refining technical expertise.",
+    "Full Stack Developer with hands-on experience building scalable web applications using Next.js, React, TypeScript, and Java Spring Boot. Experienced in end-to-end development, from designing responsive user interfaces to architecting secure RESTful APIs and managing SQL databases. A collaborative team player accustomed to Agile environments, eager to contribute to meaningful projects while continuously refining technical expertise.",
   avatarUrl:
     "https://utfs.io/f/qggsNLzkMu05zRCRnLaJsQryZ1WaNt0cfkj4GCvS3MBRIoEp",
   techs: ["TypeScript", "JavaScript", "Java", "PHP", "HTML", "CSS", "C", "SQL"],
