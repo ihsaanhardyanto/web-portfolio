@@ -90,7 +90,7 @@ export const DATA = {
       href: "https://dealer.olx.co.id/",
       badges: [],
       location: "Jakarta, Indonesia",
-      title: "Frontend Developer Intern",
+      title: "Frontend Developer",
       logoUrl: "/admo.png",
       start: "Feb 2025",
       end: "Aug 2025",
@@ -120,7 +120,7 @@ export const DATA = {
       title: "Core team - Frontend Division",
       logoUrl: "/gdg.jpeg",
       start: "Oct 2024",
-      end: "Present",
+      end: "Oct 2025",
       description: "Explore and teach Frontend using Google technologies.",
     },
     {
