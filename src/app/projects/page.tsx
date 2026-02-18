@@ -14,11 +14,11 @@ export default async function myprojects() {
               Projects
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              I like making things.
+              Things I&apos;ve Built
             </h2>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I&apos;ve worked on a variety of projects, from simple websites to
-              complex web applications. Here are some of my favorites.
+              A collection of projects ranging from enterprise web applications
+              to personal experiments. Each one taught me something new.
             </p>
           </div>
         </div>

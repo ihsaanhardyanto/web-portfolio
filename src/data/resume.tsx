@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bandung, ID",
   locationLink: "https://www.google.com/maps/place/bandung",
   description:
-    "I love making solutions that make a difference. I regularly work out to keep my energy levels high.",
+    "Full Stack Developer who enjoys building products that are fast, scalable, and actually useful.",
   summary:
-    "Full Stack Developer with hands-on experience building scalable web applications using Next.js, React, TypeScript, and Java Spring Boot. Experienced in end-to-end development, from designing responsive user interfaces to architecting secure RESTful APIs and managing SQL databases. A collaborative team player accustomed to Agile environments, eager to contribute to meaningful projects while continuously refining technical expertise.",
+    "Full Stack Developer with hands-on experience building scalable web applications using Next.js, React, TypeScript, and Java Spring Boot. Experienced in end-to-end development, from designing responsive user interfaces to architecting secure RESTful APIs and managing SQL databases. Currently working as a Full Stack Developer Intern at Hyundai Autoever Indonesia, contributing to enterprise-level applications in a cross-functional Agile team.",
   avatarUrl:
     "https://utfs.io/f/qggsNLzkMu05zRCRnLaJsQryZ1WaNt0cfkj4GCvS3MBRIoEp",
   techs: ["TypeScript", "JavaScript", "Java", "PHP", "HTML", "CSS", "C", "SQL"],
@@ -93,11 +93,11 @@ export const DATA = {
       title: "Full Stack Developer Intern",
       logoUrl: "/haeid.png",
       start: "Sep 2025",
-      end: "Feb 2026",
+      end: "Present",
       description:
         "Developing end-to-end enterprise web applications using Java Spring Boot for robust backend services and React for dynamic frontends. Responsible for designing RESTful APIs, managing database integrations, and ensuring seamless data flow between server and client-side architectures.",
     },
-    { 
+    {
       company: "Olx Indonesia",
       href: "https://dealer.olx.co.id/",
       badges: [],
@@ -108,7 +108,7 @@ export const DATA = {
       end: "Aug 2025",
       description:
         "Collaborated with cross-functional teams to enhance the dealer purchase flow, improve user experience, and boost operational efficiency. Simplified payment processes with user-friendly options and ensured seamless integration with backend systems. Contributed to the usability and visual appeal of the platform, resulting in increased user engagement.",
-    }
+    },
   ],
 
   org: [
@@ -199,6 +199,42 @@ export const DATA = {
         },
       ],
       image: "/admo.png",
+      video: "",
+    },
+    {
+      title: "Recipe App",
+      href: "https://recipe-app-fe-rho.vercel.app/",
+      dates: "December 2025",
+      active: true,
+      description:
+        "A full stack recipe application where users can browse, search, and manage recipes. Built with a Laravel REST API backend handling authentication and data persistence, and a Next.js frontend delivering a responsive and interactive user experience.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "REST API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://recipe-app-fe-rho.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Frontend",
+          href: "https://github.com/ihsaanhardyanto/recipe-app-fe",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Backend",
+          href: "https://github.com/ihsaanhardyanto/recipe-app-be",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/recipeapp.png",
       video: "",
     },
     {
@@ -293,7 +329,7 @@ export const DATA = {
     },
     {
       title: "BIMSQ Sorting Visualizer",
-      href: "https://technoscape.id/",
+      href: "https://bimsq.ihsaan.my.id",
       dates: "December 2023 - June 2024",
       active: true,
       description:

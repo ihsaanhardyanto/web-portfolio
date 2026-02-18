@@ -23,11 +23,11 @@ export default async function BlogPage() {
               Notes
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              I write and learn
+              I write to learn
             </h2>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I study alot and write about what I learn. Here are some of my
-              notes from school.
+              Writing things down helps me understand them better. These are
+              notes and reflections from things I&apos;ve studied and built.
             </p>
           </div>
         </div>
