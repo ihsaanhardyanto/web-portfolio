@@ -220,7 +220,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://recipe-app-fe-rho.vercel.app/",
+          href: "https://recipeapp.ihsaan.my.id/",
           icon: <Icons.globe className="size-3" />,
         },
         {
