@@ -1,23 +1,18 @@
+import "@/app/globals.css";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
-import "@/app/globals.css";
 
-const fontSans = FontSans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+const fontSans = FontSans({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
-  title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
-  },
+  title: { default: DATA.name, template: `%s | ${DATA.name}` },
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
@@ -38,21 +33,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: `${DATA.name}`,
-    card: "summary_large_image",
-  },
-  verification: {
-    google: "",
-    yandex: "",
-  },
+  twitter: { title: `${DATA.name}`, card: "summary_large_image" },
+  verification: { google: "", yandex: "" },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
@@ -64,6 +51,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
             {children}
+            <Analytics />
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
