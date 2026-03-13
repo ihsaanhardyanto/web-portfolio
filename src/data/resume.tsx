@@ -93,7 +93,7 @@ export const DATA = {
       title: "Full Stack Developer Intern",
       logoUrl: "/haeid.png",
       start: "Sep 2025",
-      end: "Present",
+      end: "Feb 2026",
       description:
         "Developing end-to-end enterprise web applications using Java Spring Boot for robust backend services and React for dynamic frontends. Responsible for designing RESTful APIs, managing database integrations, and ensuring seamless data flow between server and client-side architectures.",
     },
@@ -102,7 +102,7 @@ export const DATA = {
       href: "https://dealer.olx.co.id/",
       badges: [],
       location: "Jakarta, Indonesia",
-      title: "Frontend Developer",
+      title: "Frontend Developer Intern",
       logoUrl: "/admo.png",
       start: "Feb 2025",
       end: "Aug 2025",

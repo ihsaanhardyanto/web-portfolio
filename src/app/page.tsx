@@ -44,11 +44,11 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY * 2}>
               <Button className="w-full" variant="outline" asChild>
                 <Link
-                  href="/ihsaan_resume.pdf"
+                  href="/CV_Ihsaan Hardyanto_2026.pdf"
                   target="_blank"
                   className="flex gap-2"
                 >
-                  <FileText  size={18} />
+                  <FileText size={18} />
                   My Resume
                 </Link>
               </Button>
@@ -64,8 +64,6 @@ export default function Page() {
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
             {DATA.summary}
           </Markdown>
-
-          
         </BlurFade>
       </section>
 
@@ -275,7 +273,8 @@ export default function Page() {
                 >
                   X (Twitter)
                 </Link>{" "}
-                or send me an email — I&apos;ll get back to you as soon as I can.
+                or send me an email — I&apos;ll get back to you as soon as I
+                can.
               </p>
             </div>
           </BlurFade>
